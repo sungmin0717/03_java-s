@@ -1,0 +1,40 @@
+header{
+  padding: 0px;
+  border: 1px solid black;
+}
+h1{
+  text-align: center;
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+}
+.containe{
+  display: flex;
+  flex-wrap:wrap;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+}
+
+.small{
+  border: 1px solid black;
+  height: 170px;
+  width: 100%;
+  text-align: center;
+}
+.small-2{
+  border: 1px solid black;
+  height: 80px;
+  width: 100%;
+}
+.money{
+  border: 1px solid black;
+  height: 50px;
+}
+span{
+  display: flex;
+  border: 1px ridge rosybrown;
+  width: 130px;
+}
