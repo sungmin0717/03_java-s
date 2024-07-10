@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid black;
+  height: 600px;
+  width: 1000px;
+}
+
+.gameboard{
+  display: flex;
+  border-right: 3px solid black;
+  width: 80%;
+  height: 100%;
+}
+
+.gContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  width: 44%;
+  height: 100%;
+}
+.vs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 10%;
+  height: 100%;
+}
+
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 60px;
+  border: 1px solid black;
+  width: 100%;
+  height: 10%;
+}
+
+.border{
+  border: 1px solid black;
+  width: 100%;
+  height: 50%;
+
+}
+
+.list{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  
+}
+
+.gameBtn{
+  border: 5px solid black;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-in{
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+
+.list-1{
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  margin: auto;
+  cursor: pointer;
+}
+.score{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  margin: 10px;
+}
+.log{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  height: 15%;
+}
+
+.scoreLog{
+  border: 1px solid black;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: '고딕';
+  width: 100%;
+  height: 80%;
+  
+}

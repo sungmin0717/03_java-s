@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보test</title>
+  <link rel="stylesheet" href="../my/가위바위보test.css">
+</head>
+
+
+
+<body>
+
+  <div class="main"> <!-- 메인 -->
+
+    <div class="gameboard">  <!-- 게임보드 -->
+
+      <div class="gContainer"> <!-- 유저 -->
+        <div class="text">USER</div>
+        <div class="border"></div>
+        <div class="list">
+          <button onclick="1()" class="list-1">가위</button> 
+          <button onclick="2()" class="list-1">바위</button> 
+          <button onclick="3()" class="list-1">보</button>
+        </div>
+      </div>
+
+      <div class="vs">vs</div>
+
+      <div class="gContainer"> <!-- 봇  -->
+        <div class="text">COM</div>
+        <div class="border"></div>
+        <div class="list">
+          <button onclick="game" class="gameBtn">GAME START</button>
+        </div>
+      </div>
+    </div> 
+
+
+    <div class="score">
+        <!-- 스코어 -->
+      <div class="log">
+        USER VS COM
+      </div>
+
+      <div class="scoreLog">
+      </div>
+    </div> 
+
+  </div>
+
+
+  
+
+  <script src="../my/가위바위보test.js"> </script>
+</body>
+
+
+
+</html>
