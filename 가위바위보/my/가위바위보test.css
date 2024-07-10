@@ -1,5 +1,4 @@
 *{
-  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
 }
@@ -127,5 +126,12 @@ body{
   font-family: '고딕';
   width: 100%;
   height: 80%;
-  
+  margin: 5px;
 }
+
+.logBorder{
+  border-collapse: collapse;
+  width: 100%;
+  position: sticky;
+}
+
