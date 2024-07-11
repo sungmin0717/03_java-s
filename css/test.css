@@ -13,13 +13,14 @@ h1{
 .containe{
   display: flex;
   flex-wrap:wrap;
-  border: 1px solid black;
+  border: 1px solid #444746;
+  background-color: #313335;
   width: 200px;
   height: 300px;
 }
 
 .small{
-  border: 1px solid black;
+  border: 1px solid #444746;
   height: 170px;
   width: 100%;
   text-align: center;
