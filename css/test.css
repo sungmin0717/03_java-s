@@ -1,41 +1,15 @@
-header{
-  padding: 0px;
+.main{
+  margin: 0px;
+  padding: 5px;
   border: 1px solid black;
-}
-h1{
-  text-align: center;
+  width: 300px;
+  height: 600px;
 }
 
-.con{
-  display: flex;
-  justify-content: center;
-}
-.containe{
-  display: flex;
-  flex-wrap:wrap;
-  border: 1px solid #444746;
-  background-color: #313335;
-  width: 200px;
-  height: 300px;
-}
-
-.small{
-  border: 1px solid #444746;
-  height: 170px;
-  width: 100%;
-  text-align: center;
-}
-.small-2{
+#btnId{
   border: 1px solid black;
-  height: 80px;
-  width: 100%;
-}
-.money{
-  border: 1px solid black;
-  height: 50px;
-}
-span{
-  display: flex;
-  border: 1px ridge rosybrown;
-  width: 130px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
